@@ -1,6 +1,4 @@
-import "./App.css";
-
-function App() {
+function Wheather() {
   return (
     <>
       <h1 className="text-3xl font-bold text-cyan-500 ">Wheather App</h1>
@@ -8,4 +6,4 @@ function App() {
   );
 }
 
-export default App;
+export default Wheather;
