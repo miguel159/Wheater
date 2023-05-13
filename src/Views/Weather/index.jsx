@@ -5,9 +5,16 @@ import Calendar from "./Calendar";
 function Wheather() {
   return (
     <>
-      <Header />
-      <Degree />
-      <Calendar />
+      <div
+        className="
+        h-screen py-10
+        bg-gradient-to-r from-[#cbdcee] to-[#b3d9fe] 
+        "
+      >
+        <Header />
+        <Degree />
+        <Calendar />
+      </div>
     </>
   );
 }
